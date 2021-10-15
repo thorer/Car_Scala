@@ -1,0 +1,1 @@
+case class Motorbik[A] extends Vehicule[A]{}
