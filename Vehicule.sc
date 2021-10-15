@@ -1,5 +1,5 @@
 sealed trait Vehicule2 {
-  val registration : String
+  val model : String
 }
 case class Car(registration:String,model:String,power:Int)extends Vehicule
 case class Boat(registration: String,model:String,power:Int)extends Vehicule
